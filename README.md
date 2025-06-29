@@ -2,6 +2,9 @@
 
 An AI-powered Sikh spiritual guidance assistant with WhatsApp integration that provides authentic Gurbani-based responses to spiritual questions.
 
+##TODO
+Pull gurbani from ShabadOS or raw files and integrate. Project is currently stuck. 
+
 ## Overview
 
 This project creates an intelligent system that can answer spiritual questions by referencing authentic Sikh sources including:
