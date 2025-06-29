@@ -1,0 +1,46 @@
+{
+  "verse_schema": {
+    "verse_id": "string (format: G{ang}_{line_number})",
+    "source": "string (guru_granth_sahib, dasam_granth, etc.)",
+    "ang": "integer (1-1430)",
+    "raag": "string (Gauri, Asa, etc.)",
+    "author": "string (Guru Nanak Dev, Guru Arjan, etc.)",
+    "section": "string (Japji Sahib, Sri Raag, etc.)",
+    "line_number": "integer",
+    "gurmukhi": "string (original Gurmukhi text)",
+    "transliteration": "string (Roman script)",
+    "translations": {
+      "sant_singh_khalsa": "string",
+      "manmohan_singh": "string",
+      "gopal_singh": "string"
+    },
+    "commentary": {
+      "sahib_singh_darpan": "string",
+      "sgpc_shabadarth": "string",
+      "contextual_meaning": "string"
+    },
+    "modern_categories": ["array of strings"],
+    "life_applications": {
+      "work_stress": "string",
+      "family_issues": "string",
+      "health_concerns": "string",
+      "technology_balance": "string"
+    },
+    "related_verses": ["array of verse_ids"],
+    "kathakar_references": {
+      "pinderpal_singh": "string",
+      "sarabjit_singh_dhunda": "string",
+      "thakur_singh": "string",
+      "sant_singh_maskeen": "string",
+      "guriqbal_singh": "string"
+    },
+    "practical_guidance": ["array of actionable steps"],
+    "follow_up_questions": ["array of suggested deeper questions"],
+    "metadata": {
+      "created_at": "timestamp",
+      "last_updated": "timestamp",
+      "verified": "boolean",
+      "source_references": ["array of source citations"]
+    }
+  }
+}

@@ -1,40 +1,21 @@
-const { createClient } = require('@supabase/supabase-js');
+// Temporary mock Supabase client for development without API keys
+console.warn('⚠️  Database features disabled - no Supabase configuration found.');
+console.warn('   Add SUPABASE_URL and SUPABASE_SERVICE_ROLE_KEY to .env file to enable database features.');
 
-const supabaseUrl = process.env.SUPABASE_URL;
-const supabaseKey = process.env.SUPABASE_SERVICE_ROLE_KEY;
+// Export a mock supabase object that won't crash
+const mockSupabase = {
+  from: (table) => ({
+    select: (columns, options) => Promise.resolve({ data: [], error: null }),
+    insert: (data) => Promise.resolve({ data: null, error: null }),
+    eq: (column, value) => ({
+      select: () => Promise.resolve({ data: [], error: null }),
+      limit: () => Promise.resolve({ data: [], error: null })
+    }),
+    limit: (count) => Promise.resolve({ data: [], error: null }),
+    order: (column) => Promise.resolve({ data: [], error: null }),
+    range: (from, to) => Promise.resolve({ data: [], error: null })
+  }),
+  rpc: (functionName, params) => Promise.resolve({ data: [], error: null })
+};
 
-if (!supabaseUrl || !supabaseKey) {
-  console.error('Missing Supabase configuration. Please check your .env file.');
-  process.exit(1);
-}
-
-const supabase = createClient(supabaseUrl, supabaseKey, {
-  auth: {
-    persistSession: false,
-    autoRefreshToken: false
-  }
-});
-
-// Test connection
-async function testConnection() {
-  try {
-    const { data, error } = await supabase
-      .from('gurbani_verses')
-      .select('count', { count: 'exact', head: true });
-    
-    if (error) {
-      console.error('Supabase connection test failed:', error);
-    } else {
-      console.log('✅ Supabase connected successfully');
-    }
-  } catch (error) {
-    console.error('Supabase connection error:', error);
-  }
-}
-
-// Call test on module load in development
-if (process.env.NODE_ENV === 'development') {
-  testConnection();
-}
-
-module.exports = supabase;
+module.exports = mockSupabase;

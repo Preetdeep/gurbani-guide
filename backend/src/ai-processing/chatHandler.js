@@ -1,11 +1,23 @@
-const OpenAI = require('openai');
+// Simple mock for development without OpenAI
+const mockOpenAI = null;
+
 const gurbaniSearch = require('./gurbaniSearch');
 const searchEngine = require('./searchEngine');
 const supabase = require('../database/supabase');
 
-const openai = new OpenAI({
-  apiKey: process.env.OPENAI_API_KEY
-});
+// Check if OpenAI API key is available
+if (!process.env.OPENAI_API_KEY) {
+  console.warn('⚠️  OpenAI API key missing. AI features will be disabled.');
+  console.warn('   Add OPENAI_API_KEY to your .env file');
+}
+
+let openai = null;
+if (process.env.OPENAI_API_KEY) {
+  const OpenAI = require('openai');
+  openai = new OpenAI({
+    apiKey: process.env.OPENAI_API_KEY
+  });
+}
 
 class ChatHandler {
   async processMessage({ message, userId, context = {} }) {
@@ -31,6 +43,15 @@ class ChatHandler {
   }
 
   async analyzeIntent(message) {
+    if (!openai) {
+      // Fallback intent analysis without AI
+      const keywords = message.toLowerCase();
+      if (keywords.includes('gurbani') || keywords.includes('verse')) return 'gurbani_verse';
+      if (keywords.includes('history') || keywords.includes('guru')) return 'historical';
+      if (keywords.includes('practice') || keywords.includes('ritual')) return 'ritual_practice';
+      return 'life_guidance'; // Default
+    }
+
     const prompt = `
     Analyze this spiritual question and categorize the intent:
     
@@ -84,6 +105,16 @@ class ChatHandler {
   }
 
   async generateResponse(message, content, context) {
+    if (!openai) {
+      // Fallback response without AI
+      return {
+        text: `Thank you for your spiritual question: "${message}". I would love to help you with authentic Sikh guidance, but I need an OpenAI API key to provide personalized responses. Please add your API key to the .env file to enable AI-powered spiritual guidance.`,
+        sources: this.extractSources(content),
+        verses: content.verses || [],
+        confidence: 0.1
+      };
+    }
+
     const systemPrompt = `
     You are a knowledgeable and compassionate Sikh spiritual guide. Your role is to provide authentic guidance based on Gurbani (the teachings in Sri Guru Granth Sahib) and Sikh principles.
 

@@ -1,0 +1,105 @@
+{
+  "kathakar_profiles": {
+    "pinderpal_singh": {
+      "full_name": "Giani Pinderpal Singh",
+      "specialization": "Modern workplace spirituality and urban Sikh life",
+      "key_themes": ["work_as_seva", "professional_ethics", "urban_spirituality", "work_life_balance"],
+      "communication_style": "Relatable examples, contemporary language, practical focus",
+      "target_audience": "Working professionals, urban Sikhs",
+      "signature_teachings": {
+        "work_as_seva": {
+          "core_message": "Transform your profession into spiritual service",
+          "gurbani_foundation": ["G008_002", "G474_003", "G1299_001"],
+          "practical_applications": [
+            "View work as seva to humanity",
+            "Maintain integrity under pressure",
+            "Balance ambition with humility",
+            "Create peaceful work environment"
+          ],
+          "target_situations": [
+            "Career advancement decisions",
+            "Workplace ethical dilemmas", 
+            "Work-life balance struggles",
+            "Professional stress management"
+          ]
+        }
+      }
+    },
+    "sarabjit_singh_dhunda": {
+      "full_name": "Giani Sarabjit Singh Dhunda",
+      "specialization": "Youth engagement and contemporary social issues",
+      "key_themes": ["digital_age_spirituality", "modern_sikh_identity", "youth_guidance", "technology_balance"],
+      "communication_style": "Dynamic, youth-oriented, socially conscious, empowering",
+      "target_audience": "Young adults, students, modern professionals",
+      "signature_teachings": {
+        "digital_age_spirituality": {
+          "core_message": "Use technology as tool for spiritual growth, not distraction",
+          "gurbani_foundation": ["G1159_001", "G384_001", "G566_001"],
+          "practical_applications": [
+            "Transform phone into spiritual companion",
+            "Practice digital seva through positive content",
+            "Maintain real relationships over virtual ones",
+            "Use social media for Sikh education and inspiration"
+          ]
+        }
+      }
+    },
+    "thakur_singh": {
+      "full_name": "Giani Thakur Singh",
+      "specialization": "Deep spiritual discipline and traditional wisdom",
+      "key_themes": ["naam_simran_mastery", "traditional_wisdom", "spiritual_discipline", "meditation"],
+      "communication_style": "Scholarly, traditional, deep philosophical insights, contemplative",
+      "target_audience": "Serious spiritual seekers, traditional practitioners",
+      "signature_teachings": {
+        "naam_simran_mastery": {
+          "core_message": "Consistent naam japna transforms consciousness",
+          "gurbani_foundation": ["G274_001", "G188_001", "G1159_001"],
+          "practical_applications": [
+            "Establish fixed amrit vela routine",
+            "Integrate naam into all daily activities",
+            "Use breath as vehicle for continuous remembrance",
+            "Progress from mechanical to absorbed simran"
+          ]
+        }
+      }
+    },
+    "sant_singh_maskeen": {
+      "full_name": "Giani Sant Singh Maskeen",
+      "specialization": "Philosophical depth and character development",
+      "key_themes": ["character_building", "social_consciousness", "philosophical_analysis", "moral_development"],
+      "communication_style": "Intellectual, philosophical, socially conscious, inspiring",
+      "target_audience": "Educated professionals, academics, community leaders",
+      "signature_teachings": {
+        "character_building": {
+          "core_message": "Spiritual evolution through conscious character development",
+          "gurbani_foundation": ["G84_001", "G266_001", "G1245_002"],
+          "practical_applications": [
+            "Cultivate truthfulness in all interactions",
+            "Develop compassion through service",
+            "Practice humility in success",
+            "Transform challenges into growth opportunities"
+          ]
+        }
+      }
+    },
+    "guriqbal_singh": {
+      "full_name": "Giani Guriqbal Singh",
+      "specialization": "Community building and practical Sikhi",
+      "key_themes": ["community_leadership", "practical_sikhi", "family_guidance", "sangat_building"],
+      "communication_style": "Practical, family-oriented, community-focused, accessible",
+      "target_audience": "Community leaders, families, parents",
+      "signature_teachings": {
+        "practical_sikhi": {
+          "core_message": "Live Sikhi principles in everyday family and professional life",
+          "gurbani_foundation": ["G8_002", "G434_001", "G1299_001"],
+          "practical_applications": [
+            "Create Sikh environment at home",
+            "Teach children through example",
+            "Maintain Sikh values in professional settings",
+            "Balance worldly duties with spiritual goals"
+          ]
+        }
+      }
+    }
+  }
+}

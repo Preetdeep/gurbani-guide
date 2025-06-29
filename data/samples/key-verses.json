@@ -1,0 +1,87 @@
+{
+  "key_verses": [
+    {
+      "verse_id": "G001_001",
+      "ang": 1,
+      "raag": "No Raag",
+      "author": "Guru Nanak Dev",
+      "gurmukhi": "ੴ ਸਤਿ ਨਾਮੁ ਕਰਤਾ ਪੁਰਖੁ ਨਿਰਭਉ ਨਿਰਵੈਰੁ ਅਕਾਲ ਮੂਰਤਿ ਅਜੂਨੀ ਸੈਭੰ ਗੁਰ ਪ੍ਰਸਾਦਿ ॥",
+      "transliteration": "ik-oankaar sat naam kartaa purakh nirbho nirvair akaal moorat ajoonee saibhang gur prasaad ||",
+      "translation": "One Universal Creator God. Truth Is The Name. Creative Being Personified. No Fear. No Hatred. Image Of The Undying. Beyond Birth. Self-Existent. By Guru's Grace.",
+      "modern_categories": ["fundamental_theology", "divine_nature", "spiritual_foundation"],
+      "life_applications": {
+        "identity_crisis": "Remember your connection to the One Creator",
+        "fear_anxiety": "The Divine has no fear - neither should you",
+        "hatred_anger": "Divine nature is beyond hatred - cultivate that same peace"
+      }
+    },
+    {
+      "verse_id": "G008_002",
+      "ang": 8,
+      "raag": "No Raag", 
+      "author": "Guru Nanak Dev",
+      "gurmukhi": "ਕਰਮੀ ਆਵੈ ਕਪੜਾ ਨਦਰੀ ਮੋਖੁ ਦੁਆਰੁ ॥",
+      "transliteration": "karmee aavai kaparhaa nadaree mokh du-aar ||",
+      "translation": "Through your actions comes your livelihood, and through His Grace, the door of liberation.",
+      "modern_categories": ["work_karma", "career_guidance", "spiritual_work"],
+      "life_applications": {
+        "career_stress": "Focus on righteous action, not just results",
+        "work_ethics": "Your work is your karma - do it with integrity",
+        "unemployment": "Trust that honest effort brings sustenance"
+      },
+      "kathakar_references": {
+        "pinderpal_singh": "Work becomes worship when done with right intention and integrity"
+      }
+    },
+    {
+      "verse_id": "G274_001",
+      "ang": 274,
+      "raag": "Gauri",
+      "author": "Guru Arjan Dev",
+      "gurmukhi": "ਸਰਬ ਰੋਗ ਕਾ ਅਉਖਦੁ ਨਾਮੁ ॥",
+      "transliteration": "sarab rog kaa a-ukhaḏu naam ||",
+      "translation": "The Name is the medicine for all ailments.",
+      "modern_categories": ["healing_wellness", "mental_health", "spiritual_medicine"],
+      "life_applications": {
+        "anxiety_depression": "Naam simran heals mental and emotional wounds",
+        "physical_illness": "Spiritual practice supports physical healing",
+        "addiction": "Divine Name provides strength to overcome dependencies"
+      },
+      "practical_guidance": [
+        "Start day with 15 minutes of 'Waheguru' repetition",
+        "During illness, combine medical treatment with spiritual practice",
+        "Use breath awareness with naam for anxiety relief"
+      ]
+    },
+    {
+      "verse_id": "G955_001", 
+      "ang": 955,
+      "raag": "Ramkali",
+      "author": "Guru Arjan Dev",
+      "gurmukhi": "ਨਾਨਕ ਚਿੰਤਾ ਮਤਿ ਕਰਹੁ ਚਿੰਤਾ ਤਿਸ ਹੀ ਹੇਇ ॥",
+      "transliteration": "naanak chintaa mat karahu chintaa tis hee hay-i ||",
+      "translation": "O Nanak, don't worry; worry belongs to Him alone.",
+      "modern_categories": ["anxiety_stress", "worry_management", "surrender"],
+      "life_applications": {
+        "work_pressure": "Do your best, leave results to Divine will",
+        "family_problems": "Take action where possible, surrender what you can't control",
+        "health_concerns": "Worry doesn't help healing - trust and positive action do"
+      }
+    },
+    {
+      "verse_id": "G1200_001",
+      "ang": 1200,
+      "raag": "Sarang",
+      "author": "Guru Arjan Dev", 
+      "gurmukhi": "ਮਾਤ ਪਿਤਾ ਕੀ ਸੇਵਾ ਕਰਹੁ ॥",
+      "transliteration": "maat pitaa kee sayvaa karahu ||",
+      "translation": "Serve your mother and father.",
+      "modern_categories": ["family_relationships", "parent_respect", "duty"],
+      "life_applications": {
+        "family_conflicts": "Service and respect can heal family tensions",
+        "elder_care": "Caring for aging parents is spiritual practice",
+        "cultural_balance": "Honor parents while maintaining personal growth"
+      }
+    }
+  ]
+}
