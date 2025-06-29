@@ -1,105 +1,56 @@
-{
-  "kathakar_profiles": {
-    "pinderpal_singh": {
-      "full_name": "Giani Pinderpal Singh",
-      "specialization": "Modern workplace spirituality and urban Sikh life",
-      "key_themes": ["work_as_seva", "professional_ethics", "urban_spirituality", "work_life_balance"],
-      "communication_style": "Relatable examples, contemporary language, practical focus",
-      "target_audience": "Working professionals, urban Sikhs",
-      "signature_teachings": {
-        "work_as_seva": {
-          "core_message": "Transform your profession into spiritual service",
-          "gurbani_foundation": ["G008_002", "G474_003", "G1299_001"],
-          "practical_applications": [
-            "View work as seva to humanity",
-            "Maintain integrity under pressure",
-            "Balance ambition with humility",
-            "Create peaceful work environment"
-          ],
-          "target_situations": [
-            "Career advancement decisions",
-            "Workplace ethical dilemmas", 
-            "Work-life balance struggles",
-            "Professional stress management"
-          ]
-        }
-      }
-    },
-    "sarabjit_singh_dhunda": {
-      "full_name": "Giani Sarabjit Singh Dhunda",
-      "specialization": "Youth engagement and contemporary social issues",
-      "key_themes": ["digital_age_spirituality", "modern_sikh_identity", "youth_guidance", "technology_balance"],
-      "communication_style": "Dynamic, youth-oriented, socially conscious, empowering",
-      "target_audience": "Young adults, students, modern professionals",
-      "signature_teachings": {
-        "digital_age_spirituality": {
-          "core_message": "Use technology as tool for spiritual growth, not distraction",
-          "gurbani_foundation": ["G1159_001", "G384_001", "G566_001"],
-          "practical_applications": [
-            "Transform phone into spiritual companion",
-            "Practice digital seva through positive content",
-            "Maintain real relationships over virtual ones",
-            "Use social media for Sikh education and inspiration"
-          ]
-        }
-      }
-    },
-    "thakur_singh": {
-      "full_name": "Giani Thakur Singh",
-      "specialization": "Deep spiritual discipline and traditional wisdom",
-      "key_themes": ["naam_simran_mastery", "traditional_wisdom", "spiritual_discipline", "meditation"],
-      "communication_style": "Scholarly, traditional, deep philosophical insights, contemplative",
-      "target_audience": "Serious spiritual seekers, traditional practitioners",
-      "signature_teachings": {
-        "naam_simran_mastery": {
-          "core_message": "Consistent naam japna transforms consciousness",
-          "gurbani_foundation": ["G274_001", "G188_001", "G1159_001"],
-          "practical_applications": [
-            "Establish fixed amrit vela routine",
-            "Integrate naam into all daily activities",
-            "Use breath as vehicle for continuous remembrance",
-            "Progress from mechanical to absorbed simran"
-          ]
-        }
-      }
-    },
-    "sant_singh_maskeen": {
-      "full_name": "Giani Sant Singh Maskeen",
-      "specialization": "Philosophical depth and character development",
-      "key_themes": ["character_building", "social_consciousness", "philosophical_analysis", "moral_development"],
-      "communication_style": "Intellectual, philosophical, socially conscious, inspiring",
-      "target_audience": "Educated professionals, academics, community leaders",
-      "signature_teachings": {
-        "character_building": {
-          "core_message": "Spiritual evolution through conscious character development",
-          "gurbani_foundation": ["G84_001", "G266_001", "G1245_002"],
-          "practical_applications": [
-            "Cultivate truthfulness in all interactions",
-            "Develop compassion through service",
-            "Practice humility in success",
-            "Transform challenges into growth opportunities"
-          ]
-        }
-      }
-    },
-    "guriqbal_singh": {
-      "full_name": "Giani Guriqbal Singh",
-      "specialization": "Community building and practical Sikhi",
-      "key_themes": ["community_leadership", "practical_sikhi", "family_guidance", "sangat_building"],
-      "communication_style": "Practical, family-oriented, community-focused, accessible",
-      "target_audience": "Community leaders, families, parents",
-      "signature_teachings": {
-        "practical_sikhi": {
-          "core_message": "Live Sikhi principles in everyday family and professional life",
-          "gurbani_foundation": ["G8_002", "G434_001", "G1299_001"],
-          "practical_applications": [
-            "Create Sikh environment at home",
-            "Teach children through example",
-            "Maintain Sikh values in professional settings",
-            "Balance worldly duties with spiritual goals"
-          ]
-        }
-      }
+[
+  {
+    "name": "Giani Pinderpal Singh",
+    "specializations": ["work_professional", "modern_challenges", "personal_growth"],
+    "teaching_style": "Practical application of Gurbani to modern workplace challenges",
+    "sample_teachings": {
+      "work_professional": "In the corporate world, remember that success comes through honest effort combined with divine grace. Work with full dedication but remain detached from outcomes. When facing workplace stress, ask yourself: 'Am I working for ego or for service?' True fulfillment comes when we see our work as seva.",
+      "personal_growth": "Character building happens through daily practice of Gurbani principles. Small consistent actions - like speaking truthfully, helping colleagues, managing anger - these create lasting transformation.",
+      "general": "Gurbani provides practical solutions for all modern challenges when applied with understanding and consistent practice."
+    }
+  },
+  {
+    "name": "Giani Sarabjit Singh Dhunda",
+    "specializations": ["technology_balance", "mental_wellness", "family_relationships"],
+    "teaching_style": "Contemporary interpretation focusing on digital age challenges and youth guidance",
+    "sample_teachings": {
+      "technology_balance": "Social media and technology are tools - use them wisely without letting them control your mind and spiritual practice. The same mind that gets distracted by endless scrolling can be trained to focus on Naam. Set digital boundaries just like you would set physical boundaries.",
+      "mental_wellness": "Mental health struggles are real and valid. Gurbani doesn't replace professional help but provides spiritual strength alongside it. When anxiety overwhelms you, return to the breath and to Waheguru's name. You are not your thoughts.",
+      "family_relationships": "Modern families face unique pressures. Remember that disagreements don't mean lack of love. Practice patience and see each family member as a divine soul on their own journey.",
+      "general": "Young people today face challenges our ancestors never imagined. But Gurbani's wisdom is timeless - it speaks to every generation's deepest needs."
+    }
+  },
+  {
+    "name": "Giani Thakur Singh Patiala",
+    "specializations": ["spiritual_practice", "life_transitions", "traditional_wisdom"],
+    "teaching_style": "Deep traditional wisdom with emphasis on disciplined spiritual practice",
+    "sample_teachings": {
+      "spiritual_practice": "Amrit Vela is not just a time, it's a state of consciousness. When you wake before dawn, you align with the natural rhythm of creation. Even 10 minutes of sincere simran at this time equals hours of distracted prayer later.",
+      "life_transitions": "Every ending is a beginning. When facing major life changes, remember that Guru ji has already walked this path and shown us the way. Trust in Hukam and keep walking with faith.",
+      "traditional_wisdom": "The old ways were not mere traditions but tested spiritual technologies. Regular path, sangat, and seva - these create the foundation for everything else.",
+      "general": "Discipline in spiritual practice creates freedom in all other areas of life. Start where you are, but start consistently."
+    }
+  },
+  {
+    "name": "Giani Sant Singh Maskeen",
+    "specializations": ["philosophy", "personal_growth", "mental_wellness"],
+    "teaching_style": "Philosophical depth combined with practical psychology and character development",
+    "sample_teachings": {
+      "philosophy": "Gurbani is not just poetry, it's a complete philosophy of life. Every shabad contains layers of meaning - literal, metaphorical, and mystical. Study with both heart and mind.",
+      "personal_growth": "Character is built in small moments of choice. When facing temptation, ask: 'What would make my Guru proud?' Your conscience knows the answer.",
+      "mental_wellness": "Depression often comes from living disconnected from our true nature. You are not your job, your problems, or your past. You are a divine spark experiencing a human journey.",
+      "general": "True education transforms character, not just intellect. Gurbani is the highest education because it teaches us who we really are."
+    }
+  },
+  {
+    "name": "Giani Guriqbal Singh",
+    "specializations": ["community_service", "financial_guidance", "health_healing"],
+    "teaching_style": "Community-focused approach emphasizing collective responsibility and practical Sikhi",
+    "sample_teachings": {
+      "community_service": "Seva is not charity, it's recognizing the divine in others. When you serve without ego, you are actually serving yourself - because we are all connected. Start with your immediate community and expand outward.",
+      "financial_guidance": "Money is a tool for seva, not the goal itself. Earn honestly, spend wisely, and always share. Financial stress often comes from comparing with others rather than being grateful for what we have.",
+      "health_healing": "Healing happens on multiple levels - physical, mental, and spiritual. While seeking medical care, also examine: How can this challenge bring me closer to Guru ji? Often illness teaches us patience and humility.",
+      "general": "Individual spiritual growth and community service go hand in hand. You cannot truly progress spiritually while ignoring the suffering around you."
     }
   }
-}
+]
